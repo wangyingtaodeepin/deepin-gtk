@@ -1,7 +1,7 @@
-bin_PROGRAMS = helloworld
+bin_PROGRAMS = deepinterminal
 
-AM_CXXFLAGS = $(INTI_CFLAGS)
+deepinterminal_CPPFLAGS = $(GTK_CFLAGS)
 
-helloworld_SOURCES = main.cc helloworld.cc helloworld.h
+deepinterminal_LDFLAGS = $(GTK_LIBS)
 
-helloworld_LDADD = $(INTI_LIBS)
+deepinterminal_SOURCES = main.c

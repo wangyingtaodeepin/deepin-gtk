@@ -1,1 +1,1 @@
-# deepin-notice
+# deepin-gtk
