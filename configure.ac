@@ -1,4 +1,4 @@
-AC_INIT([deepinterminal], [0.1.0])
+AC_INIT([exampleapp], [0.1.0])
 AC_CONFIG_SRCDIR([src/main.c])
 AM_INIT_AUTOMAKE([foreign])
 
