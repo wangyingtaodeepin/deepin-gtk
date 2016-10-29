@@ -1,12 +1,7 @@
 #include <gtk/gtk.h>
+#include "exampleapp.h"
 
 int main(int argc, char *argv[])
 {
-    GtkWidget *window;
-    gtk_init(&argc, &argv);
-    window = gtk_window_new(GTK_WINDOW_TOPLEVEL);
-    g_signal_connect(window, "destroy", G_CALLBACK(gtk_main_quit), NULL);
-    gtk_widget_show(window);
-    gtk_main();
-    return 0;
+    return g_application_run(G_APPLICATION(example_app_new()), argc, argv);
 }

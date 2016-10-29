@@ -15,3 +15,6 @@ src/Makefile
 compile
 src/deepinterminal
 *.o
+
+resources.c
+exampleapp
